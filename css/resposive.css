@@ -1,0 +1,103 @@
+@media only screen and (max-width: 768px) {
+
+    #width_2 {
+        width: 90% ;
+        margin: auto ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        overflow-x: hidden;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .first_box {
+       width: 565px;
+        height: 200px;
+        background-color: red;
+        margin-bottom: 20px;
+    }
+    .one {
+        width: 100px;
+        height: 100px;
+        background-color: yellow;
+    }
+    #hidden{
+        display: block;
+    }
+    .second_div {
+        width: 586px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+    }
+    .hero_part {
+        margin-top: 40px;
+        width: 562px;
+        height: 50px;
+        background-color: blue;
+    }
+    .first_item {
+       width: 265px;
+        height: 130px;
+        background-color: brown;
+    }
+    .items {
+        width: 578px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+         margin-top: 30px;
+    }
+    .hero_width{
+        width: 580px;
+    }
+    }
+    @media only screen and (max-width: 600px) {
+        #hidden{
+            display: block;
+        }
+        #width_2 {
+            width: 90% ;
+            margin: auto ;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+        }
+        .main {
+            display: flex;
+            flex-direction: column;
+            margin-top: 40px;
+        }
+        .first_box {
+         display: none;
+           
+        }
+        .one {
+            width: 200px;
+            height: 100px;
+            background-color: yellow;
+        }
+        .second_div {
+            width: 445px;
+            display: grid;
+            grid-template-columns: 1fr  1fr;
+        }
+        .first_item {
+           width: 200px;
+            height: 130px;
+            background-color: brown;
+        }
+        .items {
+          width: 443px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+             margin-top: 30px;
+        }
+    .hero_part {
+        display: none;
+    }
+    }
